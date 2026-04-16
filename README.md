@@ -3,14 +3,14 @@ These are a bunch of shell functions that make the usage of [snapper](https://wi
 
 ## Functions
 * `snapperls`  
-list available snapshots
+    list available snapshots
 * `snapper-ignore <directory>`  
-turn a directory into a recursive subvolume (to "ignore" said directory from snapshots and save space)
+    turn a directory into a recursive subvolume (to "ignore" said directory from snapshots and save space)
 * `snapper-track <directory>`  
-undo the previous command
+    undo the previous command
 * `snapper-undo-latest <filepath>`  
-runs `undochange` on file from latest snapshot
+    runs `undochange` on file from latest snapshot
 * `snapper-undo-yesterday <filepath>`  
-runs `undochange` on file from yesterday's snapshot
+    runs `undochange` on file from yesterday's snapshot
 * `snapper-undo-lastweek <filepath>`  
-runs `undochange` on file from last week's snapshot
+    runs `undochange` on file from last week's snapshot
