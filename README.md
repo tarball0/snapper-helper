@@ -14,3 +14,6 @@ These are a bunch of shell functions that make the usage of [snapper](https://wi
     runs `undochange` on file from yesterday's snapshot
 * `snapper-undo-lastweek <filepath>`  
     runs `undochange` on file from last week's snapshot
+
+## Usage
+simply `source` the .zsh file into your .zshrc (might work in bash but idk)
